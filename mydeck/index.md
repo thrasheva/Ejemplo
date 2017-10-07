@@ -33,12 +33,15 @@ Máximo | 7.9 | 4.4 | 6.9
 --- class. #id
 ## Incluir gráfico en ggplot2
 
-```{r simple-plot, fig.height = 6, fig.align = 'center', message = F, warning=FALSE}
+
+```r
 require(ggplot2)
 require(gridSVG)
 p <- ggplot(iris, aes(Sepal.Length, Sepal.Width)) + geom_point()
 p + facet_grid(. ~ Species) + stat_smooth(method = "lm")
 ```
+
+<img src="figure/simple-plot-1.png" title="plot of chunk simple-plot" alt="plot of chunk simple-plot" style="display: block; margin: auto;" />
 
 
 
