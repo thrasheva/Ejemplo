@@ -28,7 +28,7 @@ Máximo | 7.9 | 4.4 | 6.9
 
 ## Incluir una imagen estática
 
-![Caption](logousta.png)
+![hola](logousta.jpg)
 
 --- class. #id
 ## Incluir gráfico en ggplot2
@@ -41,7 +41,7 @@ p <- ggplot(iris, aes(Sepal.Length, Sepal.Width)) + geom_point()
 p + facet_grid(. ~ Species) + stat_smooth(method = "lm")
 ```
 
-<img src="figure/simple-plot-1.png" title="plot of chunk simple-plot" alt="plot of chunk simple-plot" style="display: block; margin: auto;" />
+<img src="assets/fig/simple-plot-1.png" title="plot of chunk simple-plot" alt="plot of chunk simple-plot" style="display: block; margin: auto;" />
 
 
 

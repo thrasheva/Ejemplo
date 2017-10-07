@@ -28,7 +28,7 @@ Máximo | 7.9 | 4.4 | 6.9
 
 ## Incluir una imagen estática
 
-![Caption](logousta.png)
+![hola](logousta.jpg)
 
 --- class. #id
 ## Incluir gráfico en ggplot2
